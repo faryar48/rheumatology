@@ -1,0 +1,122 @@
+body { 
+  font-family: Helvetica; 
+
+}
+
+#header { 
+  margin-top: 2em; 
+  margin-bottom: 5em; 
+
+}
+
+#header h1 { 
+  color: #808285; 
+
+}
+
+.rheumatology-header { 
+  padding-left: 0; 
+  margin-top: 0.8em; 
+
+}
+
+.logo img { 
+  float: right;
+  
+}
+
+
+
+.login-text-left { 
+  color: white;
+  height: 15em;
+  border-top-left-radius: 5px; 
+  border-bottom-left-radius: 5px; 
+  padding-top: 2em; 
+  background-image: url("../images/background-graphic.png"); 
+  background-color: #12a1a6; 
+  /*background-position: center; */
+  background-attachment: fixed; 
+
+
+}
+
+.login-form-right { 
+  color: white;
+  background-color: #127f82; 
+  height: 15em;
+  border-top-right-radius: 5px; 
+  border-bottom-right-radius: 5px; 
+  padding-top: 0.8em; 
+  text-align: center; 
+
+
+}
+
+
+
+.login-text-left p {
+  margin: 1.5em;
+
+}
+
+.login-form-right p {
+  margin: 1.5em; 
+}
+
+
+.login-form-right button { 
+  margin-top: 1em;
+}
+
+#login-form { 
+  margin-bottom: 0; 
+}
+
+#error-message { 
+  color: red;
+  margin-top: 0.5em; 
+
+
+}
+
+#footer { 
+ font-size: 10px; 
+ margin-top: 15em;  
+
+}
+
+#footer-text { 
+  margin-top: 0.5em; 
+
+}
+
+#footer a { 
+  color: #808285;
+  text-decoration: underline; 
+
+}
+
+#footer-links { 
+ border-top: 1px solid #808285; 
+ padding-top: 2em; 
+
+}
+
+
+
+#footer-image img { 
+  width: 80%;
+
+}
+
+
+
+
+span.italic {
+  font-style: italic;
+}
+
+span.bold {
+  font-weight: bold;
+}
