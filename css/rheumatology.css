@@ -49,6 +49,7 @@ body {
   border-bottom-right-radius: 5px; 
   padding-top: 0.8em; 
   text-align: center; 
+  position: relative;
 
 
 }
@@ -65,8 +66,10 @@ body {
 }
 
 
-.login-form-right button { 
+#login-button-section { 
   margin-top: 1em;
+  position: absolute;
+
 }
 
 #login-form { 

@@ -14,15 +14,55 @@
 <div class="container">
 
   <section id="header">
-    <div class="page-header row">
-      <h1>Rheumatology Online</h1>
+    <div class="row">
+      <div class="col-md-4 rheumatology-header">
+        <h1>Rheumatology Online</h1>
+      </div> 
+      <div class="col-md-4"></div>
+      <div class="col-md-4 logo" >
+        <img src="images/Rheumatology-Logo.png" alt="">
+      </div>
     </div>
   </section>
   <!--section header-->
 
 
+  <section id="login-box">
+    <div class="row">
+      <div class="col-md-8 login-text-left">
+        <p>Welcome to <span class="italic">Rheumatology Online</span> sponsored by Bristol-Myers Squibb.</p>
+
+        <p><span class="bold">This website is intended for healthcare professional use only.</span></p>
+
+        <p>To access your password for the site please refer to the email sent to you by the Rheumatology steering committee.</p>
+      </div>
+      <div class="col-md-4 login-form-right">
+        <p>Please enter the password below to access the site</p>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="form-group col-md-8" id="login-form">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8" id="error-message"></div>
+        </div>
+        <div class="row" id="login-button-section">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <button type="button" class="btn btn-success" id="login-button">
+              <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Log In
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section login-box-->
+
   <section id="footer">
-    <div class="row" id="footer">
+    <div class="row">
       <div id="footer-links">
         <a href="#">Terms of Use</a> |
         <a href="#">Privacy Policy</a> |
