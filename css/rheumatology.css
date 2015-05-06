@@ -1,7 +1,10 @@
 body { 
   font-family: Helvetica; 
+  color: white;
 
 }
+
+/*header */
 
 #header { 
   margin-top: 2em; 
@@ -25,15 +28,16 @@ body {
   
 }
 
+/*end header */
 
+/*login box */
 
 .login-text-left { 
-  color: white;
   height: 15em;
   border-top-left-radius: 5px; 
   border-bottom-left-radius: 5px; 
   padding-top: 2em; 
-  background-image: url("../images/background-graphic.png"); 
+  background-image: url("../images/graphic/login-graphic.png"); 
   background-color: #12a1a6; 
   /*background-position: center; */
   background-attachment: fixed; 
@@ -42,14 +46,12 @@ body {
 }
 
 .login-form-right { 
-  color: white;
   background-color: #127f82; 
   height: 15em;
   border-top-right-radius: 5px; 
   border-bottom-right-radius: 5px; 
   padding-top: 0.8em; 
   text-align: center; 
-  position: relative;
 
 
 }
@@ -66,26 +68,140 @@ body {
 }
 
 
-#login-button-section { 
-  margin-top: 1em;
-  position: absolute;
+.login-form-right #login-button { 
+  margin-top: -10em;
 
 }
 
-#login-form { 
+.login-form-right #login-form { 
   margin-bottom: 0; 
 }
 
-#error-message { 
+.login-form-right #error-message { 
   color: red;
   margin-top: 0.5em; 
 
+}
+
+/*end login box */
+
+/*welcome/biography boxes */
+
+#welcome {
+  margin-bottom: 2em; 
 
 }
+
+#welcome #welcome-text {
+  background-color: #808285; 
+  border-radius: 5px;
+  height: 27em;
+  background-image: url("../images/graphic/welcome-graphic.png");
+  vertical-align: middle; 
+}
+
+#welcome #biography {
+  background-color: #3bbb98; 
+  border-radius: 5px; 
+  height: 27em;
+  background-image: url("../images/graphic/bio-graphic.png");
+
+}
+
+#welcome #biography #biography-image {
+  height: 100%; 
+  text-align: center;  
+}
+
+#welcome #biography #biography-text {
+  height: 100%;
+  vertical-align: middle; 
+  
+}
+
+#welcome #biography #biography-image img {
+  border: 3px solid white;  
+  margin-top: 2.5em; 
+
+}
+
+
+/*end welcome/biography boxes */
+
+/*Professor answers questions boxes */
+
+#answer-questions {
+  margin-bottom: 2em;
+}
+
+#answer-questions #professor-images {
+  border-radius: 5px; 
+  padding: 0;
+  margin: 0; 
+  height: 100%; 
+
+}
+
+#answer-questions #professor-videos {
+  background-color: #12a1a6; 
+  background-image: url("../images/graphic/video-graphic.png");
+  border-top-right-radius: 5px; 
+  border-bottom-right-radius: 5px; 
+  
+}
+
+#answer-questions #professor-videos p {
+  font-size: 16px; 
+  margin-left: 2em; 
+}
+
+#answer-questions #professor-images #image-carousel-1 {
+  background-image: url("../images/Prof_Calabrese_2.jpg");
+
+}
+
+#answer-questions #professor-images #image-carousel-2 {
+  background-image: url("../images/Prof_Calabrese_3.jpg");
+
+}
+
+#answer-questions #professor-images #image-carousel-3 {
+  background-image: url("../images/Prof_Calabrese_4.jpg");
+
+}
+
+
+
+/*end Professor answers questions boxes */
+
+ /*survey */
+
+#survey-row {
+  margin-bottom: 2em; 
+  height: 20em;
+  border-radius: 5px; 
+  background-color: #7ebe78; 
+  background-image: url("../images/graphic/survey-graphic.png");
+
+}
+
+#survey #survey-icon {
+  text-align: center; 
+  margin-top: 4em; 
+}
+
+
+
+
+ /*end survey */
+
+/*footer */
+
 
 #footer { 
  font-size: 10px; 
  margin-top: 15em;  
+ color: #808285;
 
 }
 
@@ -113,7 +229,9 @@ body {
 
 }
 
+/*end footer */
 
+/*general stylistic elements */
 
 
 span.italic {
@@ -123,3 +241,5 @@ span.italic {
 span.bold {
   font-weight: bold;
 }
+
+/*end general stylistic elements */
