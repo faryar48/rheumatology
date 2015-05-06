@@ -6,6 +6,7 @@
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/rheumatology.css" rel="stylesheet">
 
 
@@ -26,45 +27,175 @@
   </section>
   <!--section header-->
 
-
-  <section id="login-box">
+  <section id="welcome">
     <div class="row">
-      <div class="col-md-8 login-text-left">
-        <p>Welcome to <span class="italic">Rheumatology Online</span> sponsored by Bristol-Myers Squibb.</p>
+      <div class="col-md-3" id="welcome-text">
+        <h3>Welcome to Rheumatology Online, your comprehensive resource centre</h3>
+        <p>This resource has been created in response to the overwhelmingly positive feedback from the Rheumatology 2015 weekend meeting.</p>
 
-        <p><span class="bold">This website is intended for healthcare professional use only.</span></p>
-
-        <p>To access your password for the site please refer to the email sent to you by the Rheumatology steering committee.</p>
+        <p>We are pleased to provide you with a series of video clips from leading vasculitis and virology expert, Professor Leonard Calabrese, who has answered some fascinating questions posed by delegates from the Rheumatology 2015 meeting.</p>
       </div>
-      <div class="col-md-4 login-form-right">
-        <p>Please enter the password below to access the site</p>
-        <div class="row">
-          <div class="col-md-2"></div>
-          <div class="form-group col-md-8" id="login-form">
-            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+      <div class="col-md-1"></div>
+      <div class="col-md-8" id="biography">
+        <div class="col-md-6" id="biography-image">
+          <img src="images/Prof_Calabrese_1.jpg" alt="">
+        </div>
+        <div class="col-md-6" id="biography-text">
+          <h3>Professor Leanord Calabrese-Biography</h3>
+          <p>Professor Leonard Calabrese is the head of the Clinical Immunology section and the vice-chairman of the Rheumatic and Immunologic Diseases Department at the Cleveland Clinic in Cleveland, Ohio, USA. He has a special interest in the areas of vascular inflammatory diseases of the central nervous system and chronic viral infections.</p>
+
+          <p>Professor Calabrese is a highly regarded speaker and author, having lectured internationally and published over 300 peer-reviewed articles, book chapters and reviews.</p>
+        </div> 
+      </div>
+
+    </div>
+  </section>
+  <!--section welcome-->
+
+  <section id="answer-questions">
+    <div class="row">
+      <div class="col-md-4" id="professor-images">
+        <div id="carousel-video" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-video" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-video" data-slide-to="1"></li>
+            <li data-target="#carousel-video" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item" id="carousel-video-1">
+            </div>
+            <div class="item" id="carousel-video-2">
+            </div>
+            <div class="item active" id="carousel-video-3">
+            </div>
           </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-video" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-video" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-8" id="error-message"></div>
-        </div>
-        <img src="images/Log-In.png" alt="" id="login-button">
+        <!-- Carousel -->
+        <div id="bottom-bar-left"></div>
+      </div>
+
+      <div class="col-md-8" id="professor-videos">
+        <h3>Professor Calabrese answers your questions</h3>
+          <p>Video one lorem ipsum dolor sit amet consectrur</p>
+          <p>Video two lsuscipit ullamcorper quam vel laoreet pbero viverra vel</p>
+          <p>Video three rutrum porttitor sem quis facilisis odio molestie quis morbi erat sem</p>
+          <p>Video four dolor sit amet, consectetur adipiscing elit</p>
+          <p>Video five lorem ipsum dolor sit amet</p>
+          
+
+          <div id="bottom-bar-right">
+            <a href="video.html" target="_blank"><img src="images/cta-more-videos.png" id="more-videos-icon"alt=""></a>
+          </div>
       </div>
     </div>
   </section>
-  <!--section login-box-->
+  <!--section answer-questions-->
+
+
+  <section id="survey">
+    <div class="row" id="survey-row">
+      <div class="col-md-12">
+        <div class="col-md-8">
+          <h3>What topics would you like to hear about at Rheumatology 2016?</h3>
+          <p>Help us develop a thought-provoking Rheumatology 2016 meeting, by submitting your suggestions via the survey link below. Your ideas will assist the steering committee in developing a stimulating and engaging agenda for Rheumatology 2016.</p>
+          <a href="#" target="_blank"><img src="images/cta-complete-survey.png" alt=""></a>
+        </div>
+        <div class="col-md-4" id="survey-icon">
+          <img src="images/survey-icon.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section survey-->
+
+  <section id="presentation">
+    <div class="row" id="presentation-section">
+      <div class="col-md-12">
+        <h3>Professor Calabrese’s 2015 slide presentation</h3>
+        <p>Due to the popularity of Professor Calabrese’s presentations at Rheumatology 2015, his presentation slides have been made available for download here.</p>
+        <div class="col-md-1"></div>
+        <div class="col-md-4" id="CNS">
+          <div id="carousel-CNS" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-CNS" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-CNS" data-slide-to="1"></li>
+              <li data-target="#carousel-CNS" data-slide-to="2"></li>
+              <li data-target="#carousel-CNS" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active" id="carousel-CNS-1">
+              </div>
+              <div class="item" id="carousel-CNS-2">
+              </div>
+              <div class="item" id="carousel-CNS-3">
+              </div>
+              <div class="item" id="carousel-CNS-4">
+              </div>
+            </div>
+
+          </div>
+          <a href="images/CNS.pdf" target="_blank"><img src="images/cta-download-slides.png" alt=""></a>
+        </div>
+        <!-- Carousel CNS -->
+        <div class="col-md-2"></div>
+        <div class="col-md-4" id="Viral">
+          <div id="carousel-Viral" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-Viral" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-Viral" data-slide-to="1"></li>
+              <li data-target="#carousel-Viral" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner clearfix cf" role="listbox">
+              <div class="item" id="carousel-Viral-1">
+              </div>
+              <div class="item" id="carousel-Viral-2">
+              </div>
+              <div class="item active" id="carousel-Viral-3">
+              </div>
+            </div>
+          </div>
+          <!-- Carousel Viral -->
+        <a href="images/Viral.pdf" target="_blank"><img src="images/cta-download-slides.png" alt=""></a>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+  <!--section presentation-->
+  
+
+
 
   <section id="footer">
     <div class="row">
       <div id="footer-links">
-        <a target="_blank" href="#">Terms of Use</a> |
-        <a target="_blank" href="#">Privacy Policy</a> |
-        <a target="_blank" href="#">Contact Us</a>
+        <a href="#">Terms of Use</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Contact Us</a>
       </div>
       <div class="row">
         <div class="col-md-8" id="footer-text">     
           <p>This website is intended for viewing only by healthcare professionals in Australia
-              © Bristol-Myers Squibb Australia. Last updated April 2015. Your use of the information on this site is subject to the terms of our <a target="_blank" href="#">Legal notice</a> and <a target="_blank" href="#">Privacy Policy</a></p>
+              © Bristol-Myers Squibb Australia. Last updated April 2015. Your use of the information on this site is subject to the terms of our <a href="#">Legal notice</a> and <a href="#">Privacy Policy</a></p>
           <p>Bristol-Myers Squibb Australia Pty Ltd. ABN 33 004 333 322. 4 Nexus Court, Mulgrave, VIC, 3170</p>
         </div>
         <div class="col-md-4" id="footer-image">
@@ -73,7 +204,7 @@
       </div>
     </div>
   </section>
-  <!--footer-->
+  <!--section footer-->
 
 
   
