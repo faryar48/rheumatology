@@ -1,7 +1,6 @@
 body { 
   font-family: Helvetica; 
   color: white;
-
 }
 
 /*header */
@@ -9,23 +8,19 @@ body {
 #header { 
   margin-top: 2em; 
   margin-bottom: 5em; 
-
 }
 
 #header h1 { 
-  color: #808285; 
-
+  color: #818285; 
 }
 
 .rheumatology-header { 
   padding-left: 0; 
   margin-top: 0.8em; 
-
 }
 
 .logo img { 
-  float: right;
-  
+  float: right; 
 }
 
 /*end header */
@@ -91,7 +86,7 @@ body {
 }
 
 #welcome #welcome-text {
-  background-color: #808285; 
+  background-color: #818285; 
   border-radius: 5px;
   min-height: 27em;
   background-image: url("../images/graphic/welcome-graphic.png");
@@ -396,13 +391,107 @@ body {
 
  /*end video page */
 
+ /*terms */
+
+ #terms h4 {
+  color: #64BD75;
+  font-weight: bold; 
+  margin-bottom: 1em; 
+ }
+
+ #terms p {
+  color: #818285;
+  font-size: 12px; 
+ }
+
+ #terms .row {
+  margin-bottom: 5em; 
+  margin-top: -4em; 
+ }
+
+
+ /*end terms */
+
+  /*privacy */
+
+ #privacy h4 {
+  color: #64BD75;
+  font-weight: bold; 
+  margin-bottom: 1em; 
+ }
+
+  #privacy h6 {
+  color: #818285;
+  font-weight: bold; 
+  margin-bottom: 1em; 
+  margin-top: 1.5em; 
+  font-size: 14px; 
+ }
+
+ #privacy p, #privacy li {
+  color: #818285;
+  font-size: 12px; 
+ }
+
+ #privacy .row {
+  margin-bottom: 5em; 
+  margin-top: -4em; 
+ }
+
+ #privacy div.row div.col-md-12 p a {
+  text-decoration: underline; 
+  color: blue;
+  font-size: 12px; 
+
+ }
+
+
+ /*end privacy */
+
+
+ /*contact */
+
+ #contact h4 {
+  color: #64BD75;
+  font-weight: bold; 
+  margin-bottom: 1em; 
+ }
+
+  #contact h6 {
+  color: #818285;
+  font-weight: bold; 
+  margin-bottom: 1em; 
+  margin-top: 1.5em; 
+  font-size: 14px; 
+ }
+
+ #contact p, #contact li {
+  color: #818285;
+  font-size: 12px; 
+ }
+
+ #contact .row {
+  margin-bottom: 5em; 
+  margin-top: -4em; 
+ }
+
+ #contact div.row div.col-md-12 p a {
+  text-decoration: underline; 
+  color: blue;
+  font-size: 12px; 
+
+ }
+
+
+ /*end contact */
+
 
 /*footer */
 
 
 #footer { 
  font-size: 10px; 
- color: #808285;
+ color: #818285;
 
 }
 
@@ -412,13 +501,13 @@ body {
 }
 
 #footer a { 
-  color: #808285;
+  color: #818285;
   text-decoration: underline; 
 
 }
 
 #footer-links { 
- border-top: 1px solid #808285; 
+ border-top: 1px solid #818285; 
  padding-top: 2em; 
 
 }
@@ -430,6 +519,36 @@ body {
 }
 
 /*end footer */
+
+/*flip*/
+
+.flippable {
+  -webkit-transition: -webkit-transform .6s;
+  -moz-transition: -moz-transform .6s;
+  -ms-transition: -ms-transform .6s;
+  -o-transition: -o-transform .6s;
+  transition: transform .6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+
+.flipped {
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -ms-transform: rotateX(-90deg);
+  -o-transform: rotateX(-90deg);
+  transform: rotateX(-90deg); }
+
+.unflipped {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg); }
+
+/*end flip */
 
 /*general stylistic elements */
 

@@ -36,22 +36,29 @@
       myVideo.load(); 
       myVideo.play(); 
       videoBorder(); 
+      $('#main-video-play').fadeOut(); 
 
 
-       
     }); 
 
-    $('#main-video-play').on('click', function () {
+    var playPause = function () {
+
       var myVideo = $('#main-video-screen').parent()[0];
 
       if (myVideo.paused) {
         myVideo.play(); 
+        $('#main-video-play').fadeOut(); 
       } else {
         myVideo.pause();
+        $('#main-video-play').fadeIn(); 
+
       }
 
-    }); 
+    }
 
+
+    $('video').on('click', playPause);  
+    $('#main-video-play').on('click', playPause);  
 
 
 
