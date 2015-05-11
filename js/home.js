@@ -20,7 +20,7 @@
                     }
                 }, index * 1500);
             });
-        }, 5000);
+        }, 3000);
     };
 
     self.flipping_animation();

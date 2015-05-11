@@ -89,6 +89,7 @@ body {
   background-color: #818285; 
   border-radius: 5px;
   min-height: 27em;
+  height: 100%; 
   background-image: url("../images/graphic/welcome-graphic.png");
 }
 
@@ -115,9 +116,7 @@ body {
 
 
 #welcome #biography #biography-image img {
-  border: 3px solid white;  
-  /*margin-left: auto; */
-  /*margin-right: auto; */
+  border: 3px solid white; 
 
 }
 
@@ -169,11 +168,17 @@ body {
   left: 0;
   bottom: 0; 
   border-bottom-right-radius: 5px; 
+  margin-top: 1em; 
 
 }
 
+#answer-questions #professor-videos {
+  max-width: 100%; 
+}
+
 #answer-questions #professor-videos p {
-  font-size: 16px; 
+  /*font-size: 1.2em;*/
+  font-size: 16px;  
   margin-left: 2em; 
   margin-top: 1.5em; 
   margin-bottom: 1.5em; 
@@ -232,6 +237,10 @@ body {
 #survey-row p {
   margin-bottom: 2em; 
   margin-top: 1em; 
+}
+
+#survey #survey-icon img {
+  max-width: 100%; 
 }
 
 
@@ -323,7 +332,7 @@ body {
     min-height: 28em;
     background-color: #12a1a6; 
     border-radius: 5px; 
-    margin-bottom: 10em; 
+    margin-bottom: 1em; 
     background-image: url("../images/graphic/video-graphic.png");
 
  }
@@ -349,6 +358,7 @@ body {
 #video-page #video-section .main-video {
   width: 652px;
   height: 328px;
+  width: 100%; 
   margin-top: 2em; 
   border: 4px solid #9ed2ac; 
 }
@@ -387,6 +397,12 @@ body {
 #video-page #video-section .main-video-section i {
   top: 40%;
   left: 48%;
+}
+
+#video-page #video-disclaimer {
+  color: #818285;
+  margin-bottom: 10em; 
+
 }
 
  /*end video page */
@@ -483,6 +499,19 @@ body {
  }
 
  /*end contact */
+
+ /*under construction */
+
+ #under-construction {
+  color: #64BD75; 
+  text-align: center;
+ }
+
+ #under-construction h1 {
+  font-size: 60px; 
+ }
+
+ /*end under construction */
 
 
 /*footer */
@@ -585,3 +614,48 @@ span.bold {
 
 
 /*end general stylistic elements */
+
+/*media queries */
+
+@media screen and (max-width: 990px) {
+
+    .disappear {display:none;}
+
+    #welcome #welcome-text {
+      height: 100%; 
+      padding-top: 2em; 
+    }
+
+    #welcome #biography #biography-image img {
+      margin-top: 2em; 
+
+    }
+
+    #answer-questions #professor-videos h3 {
+      padding-top: 2em; 
+    }
+
+    #survey-row {
+      height: 100%; 
+      padding-bottom: 2em; 
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+  #answer-questions #professor-videos p {
+    font-size: 14px; 
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  #answer-questions #professor-videos p {
+    font-size: 12px; 
+  }
+
+}
+
+/*end media queries */
